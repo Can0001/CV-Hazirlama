@@ -133,9 +133,23 @@ body {
     margin-top: 20px;
     display: flex;
     gap: 8px;
-    flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: end; 
 }
+
+.button-container1 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.button-container1 .button {
+    margin: 0 10px; 
+}
+
 
 .custom-btn {
     width: 130px;
@@ -216,6 +230,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px auto;
+    position: relative;
 }
 
 .school {
@@ -256,6 +271,15 @@ body {
     .skills .button-container {
         justify-content: center;
     }
+    
+    .button-container1 {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .button-container1 .button {
+        margin: 5px 0; 
+    }
 
     .custom-btn {
         width: 95%;
@@ -287,6 +311,15 @@ body {
     .skills .button-container {
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .button-container1 {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .button-container1 .button {
+        margin: 10px;
     }
 
     .custom-btn {
