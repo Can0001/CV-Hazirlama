@@ -177,6 +177,10 @@ body {
         margin: 10px auto;
         text-align: center;
     }
+    
+    .about{
+        padding: 15px;
+    }
 
     .button-container {
         flex-direction: column;
