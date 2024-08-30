@@ -15,20 +15,21 @@ body {
 }
 
 p {
-    font-size: 18px; /* Yazı boyutunu biraz küçültüyoruz */
-    line-height: 1.6; /* Satır yüksekliğini artırarak okunabilirliği artırıyoruz */
-    margin: 0 0 20px; /* Alt margin ile paragraflar arasına boşluk ekliyoruz */
-    padding: 0 15px; /* Sağ ve sol kenar boşlukları ekliyoruz */
-    text-align: left; /* Metni sola yaslıyoruz */
+    font-size: 18px; 
+    line-height: 1.6; 
+    margin: 0 0 20px; 
+    padding: 0 15px; 
+    text-align: center; 
 }
 
 h1 {
     text-align: center;
-    padding: 100px 0;
+    padding: 60px 0; 
 }
 
 .container-list {
     text-align: center;
+    margin-top: 20px; 
 }
 
 .container-list ul {
@@ -70,11 +71,11 @@ h1 {
 @media (max-width: 767px) {
     h1 {
         font-size: 24px;
-        padding: 60px 0; 
+        padding: 40px 0; 
     }
 
     .container-list {
-        margin-top: 30px; 
+        margin-top: 20px; 
     }
 
     .container-list li {
@@ -90,19 +91,19 @@ h1 {
     }
 
     p {
-        font-size: 16px; /* Mobil cihazlarda yazı boyutunu küçültüyoruz */
-        padding: 0 10px; /* Mobilde daha az kenar boşluğu */
+        font-size: 16px; 
+        padding: 0 10px; 
     }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
     h1 {
         font-size: 32px; 
-        padding: 80px 0; 
+        padding: 60px 0; 
     }
 
     .container-list {
-        margin-top: 40px; 
+        margin-top: 30px; 
     }
 
     .container-list li {
@@ -118,16 +119,16 @@ h1 {
     }
 
     p {
-        font-size: 17px; /* Tabletlerde yazı boyutunu biraz artırıyoruz */
+        font-size: 17px; 
     }
 }
 
 @media (min-width: 1025px) {
     h1 {
-        padding: 100px 0; 
+        padding: 60px 0; 
     }
 
     .container-list {
-        margin-top: 50px; 
+        margin-top: 40px; 
     }
 }
